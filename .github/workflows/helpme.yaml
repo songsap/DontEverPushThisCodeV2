@@ -5,6 +5,7 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
+  workflow_dispatch:
 
 # Workflow-level permissions: grant only what the scanners need.
 permissions:
